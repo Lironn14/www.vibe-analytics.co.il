@@ -16,9 +16,9 @@ export async function generateMetadata({
   const isHe = params.lang === "he";
   return {
     title: {
-      template: isHe ? "Vibe Analytics | %s" : "Vibe Analytics | %s",
+      template: isHe ? "וייב אנליטיקס | Vibe Analytics - %s" : "Vibe Analytics - %s",
       default: isHe
-        ? "Vibe Analytics | סוכנות אנליטיקס"
+        ? "וייב אנליטיקס | Vibe Analytics"
         : "Vibe Analytics | Analytics Agency",
     },
     description: isHe

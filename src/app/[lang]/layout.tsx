@@ -15,9 +15,12 @@ export async function generateMetadata({
 }): Promise<Metadata> {
   const isHe = params.lang === "he";
   return {
-    title: isHe
-      ? "Vibe Analytics — תובנות. צמיחה. ROI"
-      : "Vibe Analytics — Insights. Growth. ROI",
+    title: {
+      template: isHe ? "Vibe Analytics | %s" : "Vibe Analytics | %s",
+      default: isHe
+        ? "Vibe Analytics | סוכנות אנליטיקס"
+        : "Vibe Analytics | Analytics Agency",
+    },
     description: isHe
       ? "סוכנות אנליטיקס בוטיק: הטמעה, סקירת מערכות וייעוץ אסטרטגי."
       : "A boutique analytics agency: implementation, audits, and strategic consulting.",

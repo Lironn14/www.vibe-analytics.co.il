@@ -1,6 +1,11 @@
 import Link from "next/link";
+import type { Metadata } from "next";
 import type { Lang } from "@/lib/i18n";
 import { LANGS } from "@/lib/i18n";
+
+export async function generateMetadata({ params }: { params: { lang: Lang } }): Promise<Metadata> {
+  return { title: params.lang === "he" ? "השירותים שלנו" : "Our Services" };
+}
 import { getDict } from "@/lib/dictionaries";
 import PageShell from "@/components/PageShell";
 import { Arrow, icons } from "@/components/icons";

@@ -1,5 +1,10 @@
+import type { Metadata } from "next";
 import type { Lang } from "@/lib/i18n";
 import { LANGS } from "@/lib/i18n";
+
+export async function generateMetadata({ params }: { params: { lang: Lang } }): Promise<Metadata> {
+  return { title: params.lang === "he" ? "תקנון האתר" : "Terms of Service" };
+}
 import { getDict } from "@/lib/dictionaries";
 import PageShell from "@/components/PageShell";
 

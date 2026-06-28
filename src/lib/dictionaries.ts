@@ -321,7 +321,7 @@ export const dictionaries = {
         { n: "3", title: "Analytics Consulting", en: "Consulting", p: "An analytics team integrated into your organization — strategic guidance and data-driven decision making. A fraction of the cost of a full in-house team.", hash: "consult" },
       ],
       stepMore: "Learn More",
-      whyTag: "Why Vibe",
+      whyTag: "Why Vibe?",
       whyTitle: ["Companies choose us because we're ", "professionals"],
       whyList: [
         { h: "Real Availability", p: "Regular meetings, prioritized tasks, and answers to your day-to-day digital questions." },
@@ -329,8 +329,8 @@ export const dictionaries = {
         { h: "A Fraction of the Cost", p: "All the capabilities of a full analytics team — without the expense of hiring full-time staff." },
       ],
       revenueImpact: "Revenue impact",
-      whyDataTag: "Why Data",
-      whyDataTitle: ["Effective data is a ", "competitive advantage"],
+      whyDataTag: "Why invest in your data?",
+      whyDataTitle: ["Precise digital measurement", " is your competitive advantage"],
       whyDataSub: "Three ways that proper analysis of your data translates directly to bottom-line results.",
       features: [
         { num: 23, suf: "×", img: "https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?w=500&h=220&fit=crop", alt: "Better decisions", icon: "chart", h: "Better Decision Making", p: "Companies that use data effectively are 23x more likely to acquire customers, 6x more likely to retain them, and 19x more likely to be profitable." },
@@ -431,12 +431,12 @@ export const dictionaries = {
       lead: "We build bridges between data and meaningful business outcomes.",
       bodyTitle: "How it all started",
       bodyP1:
-        "Vibe Analytics was founded by Lironn Levy, who holds an MBA and brings 15 years of experience in the world of analytics. Throughout his career he has worked with organizations of every size — from early-stage startups to enterprise companies — and learned to understand the real business needs behind every data request.",
+        "Vibe Analytics was founded by Lironn Levy, who holds an MBA and brings 15 years of experience in digital measurement and analytics. Throughout his career he has worked with organizations of every size — from early-stage startups to enterprise companies — and learned to understand the real business needs behind every data request.",
       bodyP2:
         "Using a structured, proven methodology, Lironn and the team help clients turn raw data into product decisions that drive real revenue growth — and most importantly, toward full independence in working with their own data.",
       founderName: "Lironn Levy",
       founderRole: "Founder, Vibe Analytics",
-      founderTag: "MBA · 15 years of analytics experience",
+      founderTag: "MBA · 15 years in digital measurement & analytics",
     },
     terms: {
       eyebrow: "Legal",

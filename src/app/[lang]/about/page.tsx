@@ -53,7 +53,7 @@ export default function AboutPage({ params }: { params: { lang: Lang } }) {
 
           <div className="about-photo">
             {/* eslint-disable-next-line @next/next/no-img-element */}
-            <img src="https://picsum.photos/seed/founder-lironn/480/600" alt={a.founderName} loading="lazy" />
+            <img src="/assets/Gemini_Generated_Image_7zcm857zcm857zcm.png" alt={a.founderName} loading="lazy" />
           </div>
         </div>
       </section>

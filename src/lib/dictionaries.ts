@@ -71,7 +71,7 @@ export const dictionaries = {
         },
       ],
       stepMore: "פרטים",
-      whyTag: "למה Vibe",
+      whyTag: "למה Vibe?",
       whyTitle: ["חברות בוחרות בנו כי אנחנו ", "מקצוענים"],
       whyList: [
         {
@@ -88,7 +88,7 @@ export const dictionaries = {
         },
       ],
       revenueImpact: "Revenue impact",
-      whyDataTag: "למה דאטה",
+      whyDataTag: "למה שווה לכם להשקיע בדאטה שלכם?",
       whyDataTitle: ["דאטה אפקטיבי הוא ", "יתרון תחרותי"],
       whyDataSub:
         "שלוש דרכים שבהן ניתוח נכון של הדאטה שלכם מתורגם ישירות לתוצאות בשורה התחתונה.",

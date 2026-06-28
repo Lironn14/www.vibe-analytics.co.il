@@ -199,8 +199,8 @@ export default function HomePage({ params }: { params: { lang: Lang } }) {
         <div className="sec-head reveal">
           <span className="tag">{h.whyDataTag}</span>
           <h2>
-            {h.whyDataTitle[0]}
-            <b>{h.whyDataTitle[1]}</b>
+            <b>{h.whyDataTitle[0]}</b>
+            {h.whyDataTitle[1]}
           </h2>
           <p>{h.whyDataSub}</p>
         </div>

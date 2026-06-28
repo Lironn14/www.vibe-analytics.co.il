@@ -89,7 +89,7 @@ export const dictionaries = {
       ],
       revenueImpact: "Revenue impact",
       whyDataTag: "למה שווה לכם להשקיע בדאטה שלכם?",
-      whyDataTitle: ["", "מדידה דיגיטלית מדויקת"],
+      whyDataTitle: ["מדידה דיגיטלית מדויקת", " היא היתרון התחרותי"],
       whyDataSub:
         "שלוש דרכים שבהן ניתוח נכון של הדאטה שלכם מתורגם ישירות לתוצאות בשורה התחתונה.",
       features: [

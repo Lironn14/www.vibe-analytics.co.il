@@ -231,19 +231,6 @@ export default function HomePage({ params }: { params: { lang: Lang } }) {
         </div>
       </section>
 
-      <section className="sec wrap metrics-sec">
-        <div className="metrics">
-          {h.metrics.map((m, i) => (
-            <div className="metric reveal" data-d={String(i + 1)} key={i}>
-              <div className="b">
-                <span data-count={m.v}>0</span>
-                {m.suf}
-              </div>
-              <div className="l">{m.l}</div>
-            </div>
-          ))}
-        </div>
-      </section>
 
       <section className="cta wrap reveal">
         <h2>
